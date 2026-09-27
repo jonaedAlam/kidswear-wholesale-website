@@ -13,8 +13,6 @@ Catalogue website for wholesale children's clothing.
 - Mobile-first design
 
 ## Technology
-- Astro
 - HTML
 - CSS
 - JavaScript
-- Cloudflare Pages
