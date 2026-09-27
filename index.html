@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Your Brand | Kidswear Wholesale Guwahati</title>
+
+  <meta
+    name="description"
+    content="Wholesale children's clothing, Korean-inspired kidswear and limited-lot collections from Guwahati, Assam."
+  />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#home" class="logo">
+        YOUR BRAND
+        <span>WHOLESALE</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#catalogue">Catalogue</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#wholesale">Wholesale</a>
+        <a href="#shipping">Shipping</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a
+        class="header-whatsapp"
+        href="https://wa.me/91XXXXXXXXXX"
+        target="_blank"
+      >
+        WhatsApp
+      </a>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <main id="home">
+
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <p class="eyebrow">
+            GUWAHATI • ASSAM
+          </p>
+
+          <h1>
+            Trending Kidswear
+            <span>at Wholesale Prices.</span>
+          </h1>
+
+          <p class="hero-description">
+            Limited-lot children's clothing for retailers,
+            resellers and boutiques.
+          </p>
+
+          <p class="hero-sub">
+            Ages 3–8 • Korean-inspired styles • Low MOQ
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#catalogue" class="button primary">
+              View Catalogue
+            </a>
+
+            <a
+              href="https://wa.me/91XXXXXXXXXX"
+              target="_blank"
+              class="button secondary"
+            >
+              Wholesale Enquiry
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+          <div class="hero-card">
+
+            <span>NEW COLLECTION</span>
+
+            <h2>
+              Fresh Lots.<br />
+              Limited Quantities.
+            </h2>
+
+            <p>
+              New designs added regularly.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COLLECTIONS -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">SHOP BY COLLECTION</p>
+          <h2>Find What Your Customers Want</h2>
+        </div>
+
+
+        <div class="collection-grid">
+
+          <button
+            class="collection-card"
+            data-filter-collection="new"
+          >
+            <span>01</span>
+            <h3>New Arrivals</h3>
+            <p>Latest wholesale lots</p>
+          </button>
+
+
+          <button
+            class="collection-card"
+            data-filter-category="Girls"
+          >
+            <span>02</span>
+            <h3>Girls</h3>
+            <p>Trending girls' styles</p>
+          </button>
+
+
+          <button
+            class="collection-card"
+            data-filter-category="Boys"
+          >
+            <span>03</span>
+            <h3>Boys</h3>
+            <p>Everyday and fashion wear</p>
+          </button>
+
+
+          <button
+            class="collection-card"
+            data-filter-collection="Winter"
+          >
+            <span>04</span>
+            <h3>Winter</h3>
+            <p>Sweaters, fleece & warmwear</p>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CATALOGUE -->
+
+    <section
+      class="section catalogue-section"
+      id="catalogue"
+    >
+
+      <div class="container">
+
+        <div class="section-heading" id="new-arrivals">
+
+          <p class="eyebrow">
+            WHOLESALE CATALOGUE
+          </p>
+
+          <h2>
+            Current Lots
+          </h2>
+
+          <p>
+            Designs and quantities may not be repeated once sold out.
+          </p>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+          <select id="categoryFilter">
+
+            <option value="all">
+              All Categories
+            </option>
+
+            <option value="Girls">
+              Girls
+            </option>
+
+            <option value="Boys">
+              Boys
+            </option>
+
+            <option value="Unisex">
+              Unisex
+            </option>
+
+          </select>
+
+
+          <select id="ageFilter">
+
+            <option value="all">
+              All Ages
+            </option>
+
+            <option value="3-4">
+              3–4 Years
+            </option>
+
+            <option value="4-5">
+              4–5 Years
+            </option>
+
+            <option value="5-6">
+              5–6 Years
+            </option>
+
+            <option value="6-7">
+              6–7 Years
+            </option>
+
+            <option value="7-8">
+              7–8 Years
+            </option>
+
+          </select>
+
+
+          <select id="collectionFilter">
+
+            <option value="all">
+              All Collections
+            </option>
+
+            <option value="Winter">
+              Winter
+            </option>
+
+            <option value="Korean">
+              Korean
+            </option>
+
+            <option value="Everyday">
+              Everyday
+            </option>
+
+          </select>
+
+
+          <select id="availabilityFilter">
+
+            <option value="available">
+              Available Stock
+            </option>
+
+            <option value="all">
+              Include Sold Out
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div
+          id="productGrid"
+          class="product-grid"
+        >
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHOLESALE -->
+
+    <section
+      class="section wholesale-section"
+      id="wholesale"
+    >
+
+      <div class="container">
+
+        <div class="section-heading light">
+
+          <p class="eyebrow">
+            FOR RETAILERS & RESELLERS
+          </p>
+
+          <h2>
+            Simple Wholesale Ordering
+          </h2>
+
+        </div>
+
+
+        <div class="steps-grid">
+
+          <div class="step">
+
+            <span>01</span>
+
+            <h3>
+              Browse
+            </h3>
+
+            <p>
+              Check our currently available lots.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <span>02</span>
+
+            <h3>
+              Select
+            </h3>
+
+            <p>
+              Note the product codes you are interested in.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <span>03</span>
+
+            <h3>
+              WhatsApp
+            </h3>
+
+            <p>
+              Send us your required products and quantities.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <span>04</span>
+
+            <h3>
+              Confirm
+            </h3>
+
+            <p>
+              We confirm stock, freight and final amount.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="wholesale-note">
+
+          <strong>
+            Important:
+          </strong>
+
+          Our products are purchased in limited lots.
+          Restocking of the same design, colour or age group
+          cannot always be guaranteed.
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SHIPPING -->
+
+    <section
+      class="section"
+      id="shipping"
+    >
+
+      <div class="container shipping-grid">
+
+        <div>
+
+          <p class="eyebrow">
+            SHIPPING & DELIVERY
+          </p>
+
+          <h2>
+            Wholesale Dispatch from Guwahati
+          </h2>
+
+          <p class="large-text">
+            We supply retailers and resellers within Assam,
+            Northeast India and other serviceable locations.
+          </p>
+
+        </div>
+
+
+        <div class="shipping-details">
+
+          <div>
+
+            <h3>
+              Dispatch Location
+            </h3>
+
+            <p>
+              Guwahati, Assam
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Shipping Charges
+            </h3>
+
+            <p>
+              Freight depends on parcel weight,
+              destination and transport method.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Dispatch Time
+            </h3>
+
+            <p>
+              Confirmed when placing the order.
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Tracking
+            </h3>
+
+            <p>
+              Courier or transport details will be shared after dispatch.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section
+      class="section contact-section"
+      id="contact"
+    >
+
+      <div class="container contact-grid">
+
+        <div>
+
+          <p class="eyebrow">
+            CONTACT US
+          </p>
+
+          <h2>
+            Start a Wholesale Enquiry
+          </h2>
+
+          <p>
+            Retail shops, resellers, boutiques and online sellers
+            are welcome to contact us.
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <h3>
+            YOUR BRAND
+          </h3>
+
+          <p>
+            Wholesale Kidswear
+          </p>
+
+
+          <hr />
+
+
+          <p>
+            <strong>Business Address</strong><br />
+
+            [YOUR PUBLIC BUSINESS ADDRESS]<br />
+
+            Guwahati, Assam – [PIN]
+          </p>
+
+
+          <p>
+            <strong>WhatsApp</strong><br />
+
+            +91 XXXXX XXXXX
+          </p>
+
+
+          <p>
+            <strong>Email</strong><br />
+
+            sales@yourbrand.in
+          </p>
+
+
+          <p>
+            <strong>Business Hours</strong><br />
+
+            Monday – Saturday<br />
+
+            10:00 AM – 7:00 PM
+          </p>
+
+
+          <a
+            href="https://wa.me/91XXXXXXXXXX"
+            target="_blank"
+            class="button primary full"
+          >
+            WhatsApp Us
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <strong>
+          YOUR BRAND
+        </strong>
+
+        <p>
+          Wholesale children's clothing from Guwahati.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <p>
+          © <span id="year"></span>
+          YOUR BRAND.
+          All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
